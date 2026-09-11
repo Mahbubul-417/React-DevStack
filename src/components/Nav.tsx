@@ -1,4 +1,4 @@
-import  logo  from "../assets/logo-text.png";
+import logo from "../assets/logo-text.png";
 
 const Nav = () => {
     return (
@@ -8,7 +8,7 @@ const Nav = () => {
 
     <img src={logo} className="h-9" alt="" />
     
-    <ul className="flex gap-4 items-center text-slate-600 font-semibold">
+    <ul className="flex gap-6 items-center text-slate-600 font-semibold text-[13px]">
     <li className="text-[#DB2777]"><a href="/home">Home</a></li>
     <li><a href="/service.com">Technologies</a></li>
     <li><a href="/projects">Projects</a></li>
@@ -16,7 +16,7 @@ const Nav = () => {
     <li><a href="/contact">Contact</a></li>
     </ul>
 
-    <div className="flex gap-4">
+    <div className="flex gap-4 text-[13px]">
     <button className="px-4 py-2 rounded-4xl font-semibold hover:bg-gray-100">
         Sign In
     </button>
