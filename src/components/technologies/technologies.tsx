@@ -5,16 +5,22 @@ import TechnologyCard from "./TechnologyCard";
 import YourStack from "./YourStack";
 import type { Technology } from "./technologyTypes";
 
+
+
 const Technologies = () => {
 
     const [technologies, setTechnologies] = useState<Technology[]>([]);
     const [stack, setStack] = useState<Technology[]>([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
 
         fetch("/data.json")
             .then((response) => response.json())
-            .then((data) => setTechnologies(data));
+            .then((data) => {
+                setTechnologies(data);
+                setLoading(false);
+            });
 
     }, []);
 
@@ -60,6 +66,14 @@ const Technologies = () => {
         toast.info("All technologies removed from your stack.");
     };
 
+    if (loading) {
+        return (
+            <div className="flex justify-center py-10">
+                <div className="h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-fuchsia-500"></div>
+            </div>
+        );
+    }
+
     return (
         <section className="px-5 -mt-40 py-10">
 
@@ -88,7 +102,7 @@ const Technologies = () => {
 
 
 
-                    <div className="grid flex-1 grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid flex-1 grid-cols-3 gap-4">
 
                         {technologies.map((technology) => (
 

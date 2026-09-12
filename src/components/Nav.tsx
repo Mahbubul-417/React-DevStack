@@ -2,34 +2,34 @@ import logo from "../assets/logo-text.png";
 
 const Nav = () => {
     return (
-        <div className="border-b border-gray-200 mx-auto max-w-6xl sticky top-0 z-50 bg-white ">
+        <div className="border-b border-gray-200 sticky top-0 z-50 bg-white ">
 
-        <nav className="flex justify-between gap-4 container py-4  ">
+            <nav className="flex justify-between gap-4 container py-4  mx-auto max-w-6xl ">
 
-    <img src={logo} className="h-9" alt="" />
-    
-    <ul className="flex gap-6 items-center text-slate-600 font-semibold text-[13px]">
-    <li className="text-[#DB2777]"><a href="/">Home</a></li>
-    <li><a href="/">Technologies</a></li>
-    <li><a href="/">Projects</a></li>
-    <li><a href="/">About</a></li>
-    <li><a href="/">Contact</a></li>
-    </ul>
+                <img src={logo} className="h-9" alt="" />
 
-    <div className="flex gap-4 text-[13px]">
-    <button className="px-4 py-2 rounded-4xl font-semibold hover:bg-gray-100">
-        Sign In
-    </button>
+                <ul className="flex gap-6 items-center text-slate-600 font-semibold text-[13px]">
+                    <li className="text-[#DB2777]"><a href="/">Home</a></li>
+                    <li><a href="/">Technologies</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
 
-    <button className="px-4 py-2 bg-[#DB2777] text-white rounded-4xl
+                <div className="flex gap-4 text-[13px]">
+                    <button className="px-4 py-2 rounded-4xl font-semibold hover:bg-gray-100">
+                        Sign In
+                    </button>
+
+                    <button className="px-4 py-2 bg-[#DB2777] text-white rounded-4xl
     hover:bg-pink-300 ">
-        Sign Up
-    </button>
-</div>
-        
-     </nav>
+                        Sign Up
+                    </button>
+                </div>
 
-     </div>
+            </nav>
+
+        </div>
     );
 };
 
