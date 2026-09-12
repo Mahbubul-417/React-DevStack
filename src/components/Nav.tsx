@@ -2,18 +2,18 @@ import logo from "../assets/logo-text.png";
 
 const Nav = () => {
     return (
-        <div className="border-b border-gray-200 ">
+        <div className="border-b border-gray-200 mx-auto max-w-6xl sticky top-0 z-50 bg-white ">
 
-        <nav className="flex justify-between gap-4 container  mx-10 py-4 px-8  ">
+        <nav className="flex justify-between gap-4 container py-4  ">
 
     <img src={logo} className="h-9" alt="" />
     
     <ul className="flex gap-6 items-center text-slate-600 font-semibold text-[13px]">
-    <li className="text-[#DB2777]"><a href="/home">Home</a></li>
-    <li><a href="/service.com">Technologies</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li className="text-[#DB2777]"><a href="/">Home</a></li>
+    <li><a href="/">Technologies</a></li>
+    <li><a href="/">Projects</a></li>
+    <li><a href="/">About</a></li>
+    <li><a href="/">Contact</a></li>
     </ul>
 
     <div className="flex gap-4 text-[13px]">

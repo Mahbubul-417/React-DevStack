@@ -67,7 +67,7 @@ const Technologies = () => {
 
 
 
-                <div className="mb-6">
+                <div className="mb-10">
 
                     <h1 className="text-4xl font-extrabold text-slate-900">
                         Explore the{" "}
@@ -76,7 +76,7 @@ const Technologies = () => {
                         </span>
                     </h1>
 
-                    <p className="mt-2 text-xs text-slate-400 font-semibold">
+                    <p className="mt-2  text-xs text-slate-400 font-semibold">
                         Pick one technology per category to build your ideal stack.
                     </p>
 

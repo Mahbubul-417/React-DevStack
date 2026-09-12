@@ -2,7 +2,7 @@ import { ToastContainer } from "react-toastify"
 import Banner from "./components/Banner"
 import Nav from "./components/Nav"
 import Technologies from "./components/technologies/technologies"
-
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -14,6 +14,7 @@ function App() {
     <Banner></Banner>
     <Technologies></Technologies>
     <ToastContainer></ToastContainer>
+    <Footer></Footer>
 
      
 

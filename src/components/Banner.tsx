@@ -1,9 +1,8 @@
-import React from 'react';
 import banner from "../assets/banner-stack.png"
 
 const Banner = () => {
     return (
-        <div className='flex justify-between mx-18 my-25'>
+        <div className='flex justify-between mx-auto max-w-6xl my-30'>
 
             <div>
                 <h1 className="text-5xl font-bold mb-6 ">
@@ -31,7 +30,7 @@ const Banner = () => {
                 </button>
             </div>
 
-            <img src={banner} className="max-w-[500px] relative -top-22" alt="Banner" />
+            <img src={banner} className="max-w-[500px] max-h-[500px] relative -top-25" alt="Banner" />
 
         </div>
 
