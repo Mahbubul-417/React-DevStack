@@ -5,7 +5,6 @@ const Banner = () => {
     return (
         <div className='flex justify-between mx-18 my-25'>
 
-
             <div>
                 <h1 className="text-5xl font-bold mb-6 ">
                     Build Your Ideal
