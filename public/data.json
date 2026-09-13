@@ -108,17 +108,7 @@
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
     "badge": "Modern"
-  },
-  {
-    "id": "docker",
-    "name": "Docker",
-    "category": "DevOps",
-    "description": "A platform designed to build, share, and run applications in containers.",
-    "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
-    "rating": 4.9,
-    "difficulty": "Intermediate",
-    "badge": "Containers"
-  },
+  },  
   {
     "id": "git",
     "name": "Git",

@@ -20,11 +20,11 @@ const Banner = () => {
                     next project.
                 </p>
 
-                <button className="mt-8 rounded-lg bg-gradient-to-r from-orange-500 to-pink-500 px-4 py-2  font-medium text-white">
+                <button className="mt-8 rounded-lg bg-gradient-to-r from-orange-500 to-pink-500 px-4 py-2  font-medium text-white cursor-pointer">
                     Explore Technologies
                 </button>
 
-                <button className="ml-2 rounded-lg border border-slate-200 px-8 py-2  text-slate-600">
+                <button className="ml-2 rounded-lg border border-slate-200 px-8 py-2  text-slate-600 hover:bg-gray-100 cursor-pointer">
                     Learn More
 
                 </button>

@@ -17,12 +17,11 @@ const Nav = () => {
                 </ul>
 
                 <div className="flex gap-4 text-[13px]">
-                    <button className="px-4 py-2 rounded-4xl font-semibold hover:bg-gray-100">
+                    <button className="px-4 py-2 rounded-4xl font-semibold hover:bg-gray-100 cursor-pointer">
                         Sign In
                     </button>
 
-                    <button className="px-4 py-2 bg-[#DB2777] text-white rounded-4xl
-    hover:bg-pink-300 ">
+                    <button className="px-4 py-2 bg-[#DB2777] text-white rounded-4xl hover:bg-pink-300 cursor-pointer ">
                         Sign Up
                     </button>
                 </div>
